@@ -68,6 +68,72 @@ small:hover {
     font-size: 3rem;
 }
 
+.pills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.pilly {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex-basis: content;
+    /* padding: 3rem; */
+    color: white;
+    margin-top: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    /* border: 2px solid blue; */
+}
+
+.pilly:hover {
+    height: auto;
+    overflow: visible;
+}
+
+.button:hover {
+    height: 100px;
+}
+
+.pill-1 {
+    padding: 0;
+    text-align: center;
+    border-radius: 50px;
+    flex-basis: 20%;
+    /* border: 2px solid orange; */
+}
+
+button {
+    padding: 0;
+    border: none;
+    /* background-color: rgba(0,0,0,0.9); */
+}
+
+/* SO THERE'S SOMETHING I WANT TO TRY
+FIRST CHECK WHAT THE SCENE IS LIKE ON THE BROWSER SO YOU CAN REMEMBER THE IDEA. THE PLAN IS SOMETHING ABOUT A HOVER STATE THAT EXTENDS TO SHOW THE REMAINING DETAILS THAT ARE HIDDEN. WIDTH WOULD MOST LIKELY BE REDUCED NORMALLY, THEN EXTENDED UPON HOVER, TO SHOW ALL THAT'S HIDDEN */
+
+
+a {
+    text-decoration: underline;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0.5rem;
+    display: block;
+    /* border-radius: 50px; */
+    background-color: rgba(0,0,0,0.9);
+    font-family: 'Special Elite', cursive;
+    /* border: 2px dashed purple; */
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,0.9);
+    /* height: 7rem; */
+}
+
 @media screen and (max-width: 960px) {
     h1 {
         font-size: 5rem;
@@ -131,3 +197,42 @@ small:hover {
         font-size: 0.3rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .pilly {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 3rem;
+    color: white;
+    margin-top: 2rem;
+    border: 2px solid blue;
+}
+
+.pill-1 {
+    padding: 0;
+    text-align: center;
+    border-radius: 50px;
+    flex-basis: 20%;
+    border: 2px solid orange;
+} */
