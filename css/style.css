@@ -1,0 +1,213 @@
+html,
+body {
+    background-color: black;
+    margin: auto;
+}
+
+.container-fluid {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 0 3rem;
+    height: 100vh;
+    /* border: 2px solid blue; */
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 35rem;
+    height: 40px;
+    margin-bottom: 1rem;
+    /* padding: 3rem; */
+    justify-content: left;
+    align-items: flex-start;
+
+    
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+    /* border: 1.5px solid red; */
+}
+
+.move {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    position: relative;
+}
+
+@keyframes movement {
+    0%      {justify-content: left; align-items: flex-start;}
+    25%     {justify-content: right; align-items: flex-start;}
+    50%     {justify-content: right; align-items: flex-end;}
+    75%     {justify-content: left; align-items: flex-end;}
+    100%    {justify-content: left; align-items: flex-start;}
+}
+
+.center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 70%;
+    text-align: center;
+    padding: 3rem;
+    /* border: 2px solid rgba(0, 0, 255, 0.5); */
+}
+
+h1 {
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    /* border: 2px white solid; */
+}
+
+code {
+    font-family: 'Press Start 2P', cursive;
+    color: #cdb6b6;
+}
+
+h5 {
+    color: white;
+    font-size: 1rem;
+}
+
+button a {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    margin: 0;
+    padding: 0rem;
+    background-color: white;
+    border-radius: 50px;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    /* border: 2px solid blue; */
+}
+
+button a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.7);
+}
+
+button {
+    background-color: #cdb6b6;
+    border: none;
+    padding: 0;
+    border-radius: 50px;
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+@media only screen and (max-width: 670px) {
+    
+    .center {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 70%;
+        padding: 2rem;
+    }
+
+    h1 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    
+    .center {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 70%;
+        padding: 2rem;
+    }
+
+    h1 {
+        margin-top: 0;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        /* border: 2px white solid; */
+    }
+
+    button {
+        width: 12rem;
+    }
+
+    button a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .center {
+        width: 17rem;
+        height: 17rem;
+        border-radius: 70%;
+        padding: 2rem;
+    }
+
+    h1 {
+        margin-top: 0;
+        padding: 1rem;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        /* border: 2px white solid; */
+    }
+
+    button {
+        width: 8rem;
+    }
+
+    button a {
+        font-size: 0.75rem;
+        padding: 0.7rem;
+    }
+
+    h5 {
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

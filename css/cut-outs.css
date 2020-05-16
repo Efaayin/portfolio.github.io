@@ -1,0 +1,186 @@
+html,
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    /* border: 2px solid red; */
+}
+
+.name {
+    background-image: url(../imgs/name-bg2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /* border: 2px solid blue; */
+}
+
+.name p {
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Fredericka the Great', cursive;
+    margin: 0;
+    padding: 3rem;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #f0f0f0;
+    /* border: 2px solid gold; */
+}
+
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: black;
+    padding: 1rem;
+    flex-basis: 20%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* margin-right: 1rem; */
+    color: white;
+}
+
+ul li:hover {
+    list-style-type: none;
+    background-color: black;
+    color: #B92994;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.links {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #000000;
+    width: 100%;
+    /* border: 2px solid orange; */
+}
+
+.about {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.col-sm-12 {
+    text-align: center;
+    padding: 2rem;
+    color: #f0f0f0;
+    font-size: 2rem;
+    /* border: 2px solid green; */
+}
+
+.about-cards {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.col-sm-4 {
+    border: 2px solid pink;
+}
+
+.first {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.contact {
+    color: white;
+    padding: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE HTML */
+
+
+<div class="container-fluid">
+<div class="name">
+    <p>ALICHI IFEANYICHUKWU UDEAGHA</p>
+</div>
+
+<div class="links">
+    <ul>
+        <li>About Me</li>
+        <li>Projects</li>
+        <li>Jokes and Riddles</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+<div class="about">
+    <div class="col-sm-12">About Me</div>
+    <div class="about-cards">
+        <div class="col-sm-4 first">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs/name-bg.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Developer</h5>
+                        <p class="card-text">Not your average developer. You'd probably never see a developer as good as me anywhere else. I like to think I deliver on time, EVERY SINGLE TIME!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+              </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="imgs/name-bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-4">25</div>
+    </div>
+</div>
+
+<div class="projects">
+
+</div>
+
+<div class="j-r">
+
+</div>
+
+<div class="contact">
+    fvvfdz
+</div>
+</div>

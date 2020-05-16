@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(0,0,0,0.9);
+    margin: 0;
+    padding: 0.5rem 1rem;
+    /* border: 2px red dashed; */
+}
+
+hr {
+    border: 0.2rem solid #f0f0f0;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #f0f0f0;
+    font-family: 'Special Elite', cursive;
+    /* border: 2px solid red; */
+}
+
+.first {
+    margin-top: 3rem;
+}
+
+.first:hover {
+    text-align: right;
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,0.9);
+    transition: all 1s;
+}
+
+.second {
+    text-align: center;
+}
+
+.second:hover {
+    text-align: left;
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,0.9);
+    transition: all 1s;
+}
+
+.third {
+    text-align: right;
+}
+
+.third:hover {
+    text-align: center;
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,0.9);
+    transition: all 1s;
+}
+
+h6 {
+    font-size: 2rem;
+    color: #f0f0f0;
+    font-family: 'Pacifico', cursive;
+    /* width: max-content; */
+}
+
+.let {
+    font-size: 0.5rem;
+}
+
+small {
+    font-size: 0.6rem;
+}
+
+small:hover {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    small:hover {
+        font-size: 2rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    small:hover {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    small:hover {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    small:hover {
+        font-size: 0.7rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+    }
+
+    .first {
+        margin-top: 4rem;
+    }
+
+    .let {
+        font-size: 0.3rem;
+    }
+}
